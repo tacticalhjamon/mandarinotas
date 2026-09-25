@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin: 40px 20px;
+    overflow: hidden;
+}
+.contenedor_mayor{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.seccion_buscador{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    width: 100%;
+}
+.logo_orion {
+    height: 70px;
+    width: auto;
+    display: block;
+    object-fit: contain;
+}
+.contenedor_buscador{
+    flex: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.buscador{
+    width: 100%;
+    padding: 10px 45px 10px 15px;
+    border: 1.5px solid #0e3e63;
+    border-radius: 20px;
+    font-size: 0.95rem;
+    color: #0e3e63;
+    text-align: right;
+    font-style: italic;
+}
+.buscador::placeholder{
+    color: #8c9ba5;
+    font-style: italic;
+}
+.agregar_btn{
+    width: 42px;
+    height: 42px;
+    background-color: #0e3e63;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.seccion_contenido{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#contenedor_documento{
+    width: 100%;
+    height: 70vh;
+    border: 1.5px solid #0e3e63;
+    border-radius: 12px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenido_vacio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.texto_resultado{
+    color: #8c9ba5;
+    font-style: italic;
+}
+.logo_telescopio {
+    width: 220px;          
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+}
